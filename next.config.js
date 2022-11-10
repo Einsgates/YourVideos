@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript:{
-    ignoreBuildErrors:true,
-  },
   reactStrictMode: true,
   images: {
     domains: [
@@ -10,7 +7,6 @@ const nextConfig = {
       'lh3.googleusercontent.com'
     ]
   },
-  
   // swcMinify: true,
 }
 
